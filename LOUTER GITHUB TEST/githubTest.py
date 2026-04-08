@@ -1,2 +1,2 @@
-for i in range():
-  
+for i in range(10):
+  print('Louter is the best')
