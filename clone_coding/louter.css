@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+.study{
+  background-color: black;
+  color:#ffd600;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.introduce{
+  /* border:1px solid black; */
+  box-sizing: content-box;
+  width: 200px;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.introduce h2, .introduce p{
+  margin-left:10px;
+}
+
+.paperozi {
+  font-family: "Paperozi";
+}
+
+div>p{font-weight:80px;}
+
+
+.club1{background-color: black; color:#ffd600}
+.club2{background-color: #fff3b2;}
+.club3{background-color: #ffd600; border:1px solid black;}
+.club4{background-color: #b9a850;}
+.club5{
+  background-color: black;
+  color:#ffd600;
+  box-sizing: content-box;
+  width: 300px;
+  height:60px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;}
+
+body > div {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body > div > div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  gap: 10px;
+}
+
+#idea{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px black;
+}
+
+
+.switch{
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+  font-size: 9px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  padding-left: 30px;
+  width: 300px;
+  height: 400px;
+  margin-left: 20px;
+}

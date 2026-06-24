@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'NostalgicCocochoitoon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-1@1.0/Griun_Cocochoitoon-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cafe24Decoshadow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Decoshadow.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'NostalgicCocochoitoon';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffff;
+  zoom:1.25;
+}
+
+h1{
+  text-align: center;
+  margin: 50px;
+  font-size: 50px;
+  text-shadow: #a9b5bd 2px 2px 1px;
+  font-family: 'Cafe24Decoshadow';
+}
+
+li{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#image {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin: 10px auto;
+}
+
+#image:hover {
+  transform:scaleX(-1);
+}
+
+#todo_list {
+  list-style: none;
+  padding: 0;
+}
+
+#container {
+  background-color:whitesmoke;
+  min-height: 400px;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: #5a5a5a 0px 4px 6px -1px;
+}
+
+#todo_input{
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #5a5a5a;
+  border-radius: 10px;
+  width: 250px;
+}
+
+#add {
+  background-color: #00754b;
+  color:white;
+  border-radius: 20px;
+  border: 1px solid #5a5a5a;
+  padding:3px 20px;
+  cursor: pointer;
+}
+
+
+
+
+/* 자스에서 추가한친구들 고치기 ㅎㅎ */
+.del_button {
+  padding: 1.5px 7px;
+  background-color:#ff968a;
+  margin-left: 10px;
+  /* margin-right: 5px; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit_button, .complete_button {
+  padding: 1.5px 7px;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complete_button {
+  background-color: #bbdafb;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: #777;
+  opacity: 0.6;
+}
