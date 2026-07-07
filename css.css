@@ -36,16 +36,16 @@ p {
 
 #page1 {
   background-color: var(--yellow);
-  width: 1512px;
-  height: 1178px;
+  width: 1500px;
+  height: 1100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 #page1_A {
-  width: 756px;
-  padding: 0 0 0 227px;
+  width: 750px;
+  padding: 0 0 0 220px;
 }
 
 #p_card1 {
@@ -61,7 +61,7 @@ p {
 
 #page1 h1 {
   font-size: 100px;
-  margin: 38px 0;
+  margin: 40px 0;
 }
 
 #page1 h1 div * {
@@ -74,8 +74,8 @@ p {
 }
 
 #page1 h1 img {
-  width: 302px;
-  height: 98px;
+  width: 300px;
+  height: 100px;
 }
 
 #p_1 {
@@ -89,32 +89,32 @@ p {
 }
 
 #page1_B {
-  width: 756px;
+  width: 750px;
   display: flex;
   justify-content: flex-end;
-  padding: 147px 227px 147px 0;
+  padding: 150px 230px 150px 0;
 }
 
 #card_grid {
   display: grid;
-  grid-template-columns: 227px 227px;
+  grid-template-columns: 230px 230px;
   grid-template-rows: auto auto;
   gap: 30px;
 }
 
 .card {
   padding: 20px 30px;
-  width: 227px;
+  width: 230px;
   border-radius: 10px;
 }
 
 .card_p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .card_title {
   font-weight: bold;
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
@@ -130,7 +130,7 @@ p {
 
 #card3 {
   color: var(--black);
-  border: 1px solid var(--black);
+  border: 1.5px solid var(--black);
 }
 
 #card4 {
@@ -143,7 +143,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  width: 484px;
+  width: 480px;
   background-color: var(--black);
   color: var(--yellow);
   border-radius: 10px;
@@ -155,9 +155,9 @@ p {
 
 #page2 {
   background-color: var(--lightyellow);
-  width: 1512px;
-  height: 1178px;
-  padding: 147px 151px;
+  width: 1510px;
+  height: 1180px;
+  padding: 150px 150px;
 }
 
 #p_card2 {
@@ -172,7 +172,7 @@ p {
 }
 
 .p1 {
-  margin: 39px 0 98px 0;
+  margin: 40px 0 100px 0;
   font-size: 40px;
   font-weight: bold;
 }
@@ -183,12 +183,12 @@ p {
 
 .num {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 50px;
   margin-right: 20px;
 }
 
 .content_title {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -197,7 +197,7 @@ p {
   justify-content: flex-start;
   align-items: center;
   border-bottom: 1px solid var(--black);
-  height: 157px;
+  height: 160px;
 }
 
 /* ================================================================= */
@@ -207,9 +207,9 @@ p {
 #page3 {
   position: relative;
   background-color: var(--yellow);
-  width: 1512px;
-  height: 1473px;
-  padding: 147px 151px;
+  width: 1510px;
+  height: 1470px;
+  padding: 150px 150px;
 }
 
 #p_card3 {
@@ -225,41 +225,41 @@ p {
 
 #page3_title {
   margin: 30px 0 100px 0;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: bold;
 }
 
 #border_text {
-  -webkit-text-stroke: 1px var(--black);
+  -webkit-text-stroke: 0px var(--black);
   -webkit-text-fill-color: transparent;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 900;
 }
 
 #page3_content_grid1 {
   position: absolute;
-  top: 442px;
+  top: 440px;
   display: grid;
-  grid-template-rows: 344px;
-  grid-template-columns: 597px 597px;
-  gap: 15px;
+  grid-template-rows: 340px;
+  grid-template-columns: 600px 600px;
+  gap: 20px;
 }
 
 #page3_content_grid1 > * {
-  width: 597px;
-  height: 442px;
+  width: 600px;
+  height: 440px;
   border-radius: 10px;
 }
 
 .page3_card {
-  width: 272px;
+  width: 270px;
   padding: 30px;
   background-color: white;
   border-radius: 10px;
 }
 
 .page3_card img {
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 .page3_card_title {
@@ -268,15 +268,15 @@ p {
 }
 
 .page3_card_p {
-  font-size: 11px;
+  font-size: 10px;
 }
 
 #page3_content2 {
   position: absolute;
-  top: 982px;
+  top: 980px;
   display: grid;
-  grid-template-columns: 272px 272px 272px 272px;
-  gap: 38px;
+  grid-template-columns: 270px 270px 270px 270px;
+  gap: 40px;
 }
 
 /* ================================================================= */
@@ -286,9 +286,9 @@ p {
 #page4 {
   position: relative;
   background-color: var(--black);
-  width: 1512px;
+  width: 1510px;
   height: 2210px;
-  padding: 147px 151px;
+  padding: 150px 150px;
 }
 
 #p_card4 {
@@ -306,7 +306,7 @@ p {
   margin-top: 30px;
   margin-bottom: 100px;
   color: white;
-  font-size: 56px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -318,15 +318,15 @@ p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 91px;
-  height: 1473px;
+  width: 90px;
+  height: 1470px;
 }
 
 .box {
   width: 340px;
   height: auto;
-  padding: 34px;
-  border: 1.5px solid var(--yellow);
+  padding: 30px;
+  border: 2px solid var(--yellow);
   color: white;
   border-radius: 10px;
 }
@@ -337,7 +337,7 @@ p {
 }
 
 .box_title {
-  font-size: 24px;
+  font-size: 20px;
   margin: 10px 0;
 }
 
@@ -352,26 +352,26 @@ p {
 
 #box1 {
   position: absolute;
-  right: 302px;
+  right: 300px;
   top: 540px;
 }
 
 #box2 {
   position: absolute;
-  left: 302px;
-  top: 933px;
+  left: 300px;
+  top: 930px;
 }
 
 #box3 {
   position: absolute;
-  right: 302px;
-  top: 1296px;
+  right: 300px;
+  top: 1300px;
 }
 
 #box4 {
   position: absolute;
-  left: 302px;
-  top: 1689px;
+  left: 300px;
+  top: 1690px;
 }
 
 /* ================================================================= */
@@ -381,9 +381,9 @@ p {
 #page5 {
   position: relative;
   background-color: white;
-  width: 1512px;
+  width: 1510px;
   height: 1080px;
-  padding: 147px 151px;
+  padding: 150px 150px;
 }
 
 #p_card5 {
@@ -402,20 +402,20 @@ p {
   margin-top: 30px;
   margin-bottom: 100px;
   color: var(--black);
-  font-size: 56px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 #grid_box {
   display: grid;
-  grid-template-columns: 575px 575px;
-  grid-template-rows: 196px 196px;
+  grid-template-columns: 580px 580px;
+  grid-template-rows: 200px 200px;
   gap: 30px;
 }
 
 .content2_orange {
-  width: 575px;
-  height: 196px;
+  width: 580px;
+  height: 200px;
   border: 3px solid var(--orange);
   display: flex;
   align-items: center;
@@ -424,8 +424,8 @@ p {
 }
 
 .content2_black {
-  width: 575px;
-  height: 196px;
+  width: 580px;
+  height: 200px;
   border: 3px solid var(--black);
   display: flex;
   align-items: center;
@@ -434,13 +434,13 @@ p {
 }
 
 .content_title2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   margin: 0 0 20px 0;
 }
 
 .content_p2 {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 /* ================================================================= */
@@ -450,9 +450,9 @@ p {
 #page6 {
   position: relative;
   background-color: var(--lightyellow);
-  width: 1512px;
+  width: 1510px;
   height: 1080px;
-  padding: 147px 151px;
+  padding: 150px 150px;
 }
 
 #p_card6 {
@@ -467,7 +467,7 @@ p {
 }
 
 #page6_title {
-  font-size: 56px;
+  font-size: 60px;
   font-weight: bold;
   margin: 30px 0 100px;
 }
@@ -481,7 +481,7 @@ p {
 .content3 {
   position: relative;
   width: 590px;
-  height: 196px;
+  height: 200px;
   background-color: var(--yellow);
   display: flex;
   align-items: center;
@@ -491,17 +491,17 @@ p {
 }
 
 .content3:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .content_title3 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   margin: 0 0 20px 0;
 }
 
 .content_p3 {
-  font-size: 28px;
+  font-size: 30px;
   color: var(--gray);
 }
 
@@ -511,8 +511,8 @@ p {
   top: 50%;
   transform: translateY(-50%);
   border-radius: 10px;
-  width: 151px;
-  height: 98px;
+  width: 150px;
+  height: 100px;
 }
 
 /* ================================================================= */
@@ -522,9 +522,9 @@ p {
 #page7 {
   position: relative;
   background-color: var(--yellow);
-  width: 1512px;
+  width: 1510px;
   height: 1080px;
-  padding: 147px 151px;
+  padding: 150px 150px;
 }
 
 #p_card7 {
@@ -539,9 +539,9 @@ p {
 }
 
 #page7_title {
-  font-size: 56px;
+  font-size: 60px;
   font-weight: bold;
-  margin: 30px 0 172px;
+  margin: 30px 0 170px;
 }
 
 #flex_box2 {
@@ -553,26 +553,26 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 378px;
-  height: 295px;
+  width: 380px;
+  height: 300px;
 }
 
 .content_title4 {
-  width: 378px;
+  width: 380px;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
 }
 
 .content_img {
-  width: 113px;
-  height: 113px;
+  width: 110px;
+  height: 110px;
   background-color: white;
   border-radius: 100%;
-  padding: 15px;
+  padding: 20px;
 }
 
 .content_p4 {
-  width: 378px;
+  width: 380px;
   text-align: center;
 }
