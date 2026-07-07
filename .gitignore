@@ -1,0 +1,13 @@
+# 제외할 폴더들
+두두리스트/
+Claculator/
+css게임?연습 ㅠ/
+FLASK/
+LOUTER GITHUB TEST/
+node_modules/
+
+# 제외할 파일들
+두다다쿵2.png
+바른말정원...png
+소수.py
+*.pages
