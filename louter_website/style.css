@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root {
+  --louter-black: #000000;
+  --louter-yellow: #ffd600;
+  --louter-lightBrown: #585542;
+  --louter-darkYellow: #D1B317;
+  --louter-lightYellow: #FFF3B2;
+  --louter-backgroundYellow: #FEF9E0;
+}
+
+#intro {
+  padding: 150px;
+  background-color: var(--louter-yellow);
+  height: 550px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#about {
+  padding: 150px;
+  padding-top: 100px;
+  background-color: var(--louter-backgroundYellow);
+  height: 700px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#ourService {
+  padding: 150px;
+  padding-top: 100px;
+  background-color: var(--louter-yellow);
+  height: 900px;
+
+}
+
+#whyLouter1 {
+  padding: 150px;
+  padding-top: 100px;
+  background-color: white;
+  height: 600px;
+}
+
+#whyLouter2 {
+  padding: 150px;
+  padding-top: 100px;
+  background-color: var(--louter-backgroundYellow);
+  height: 600px;
+}
+
+#want {
+  padding: 150px;
+  padding-top: 100px;
+  background-color: var(--louter-yellow);
+  height: 600px;
+}
+
+#intro_blocks {
+  /* display: flex;
+  gap: 20px; */
+  display: grid;
+  /* gap: 10px 10px; */
+  grid-template-columns: repeat(2, minmax(10px, 260px)); /* 열 */
+  grid-auto-rows: 140px;
+  margin-top: 60px;
+}
+
+.title {
+  display:flex;
+  background-color: var(--louter-black);
+  width: 150px;
+  height: 38px;
+  color:white;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  
+  font-weight: 700;
+  justify-content: center;
+  align-items:center;
+}
+
+#intro_title {
+  color: var(--louter-yellow);
+  width: 200px;
+
+}
+
+#about_title {
+  color: var(--louter-black);
+  background-color: var(--louter-yellow);
+  width: 90px;
+}
+
+#ourService_title {
+  color:var(--louter-yellow);
+  width: 135px;
+}
+
+#whyLouter1_title {
+  color:var(--louter-black);
+  background-color: var(--louter-yellow);
+  width: 135px;
+}
+
+#want_title {
+  color:var(--louter-yellow);
+  width: 150px;
+  height: 38px;
+}
+
+.intro_block { 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 20px;
+  width: 200px;
+  height: 80px;
+  /* border: 1px black solid; */
+  border-radius: 10px;
+}
+
+.intro_big_text {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#front_text {
+  font-size: 7rem;
+}
+
+#front_under_text {
+  color: var(--louter-lightBrown);
+}
+
+#intro_block_1 {
+  background-color: var(--louter-black);
+  color: var(--louter-yellow);
+  
+}
+
+#intro_block_2 {
+  background-color: var(--louter-lightYellow);
+  color: var(--louter-black);
+  
+}
+
+#intro_block_3 {
+  background-color: var(--louter-yellow);
+  color: var(--louter-black);
+  border: 1px solid black;
+}
+
+#intro_block_4 {
+  background-color: var(--louter-darkYellow);
+  color: var(--louter-black);
+  
+}
+
+#intro_block_5 {
+  flex-direction: row;
+
+  background-color: var(--louter-black);
+  color: var(--louter-yellow);
+  width: 460px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.idea{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px black;
+}
+
+#front_text {
+  font-weight: bold;
+}
+
+#about_text {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+#ourService_text {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#want_text {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.list_array {
+  display:flex;
+  border-top: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  align-items: center;
+  width: 1200px;
+  height:130px
+}
+
+#list_array_end {
+  border-top:1px black solid;
+  border-bottom:1px black solid;
+}
+
+.list_number {
+  margin: 20px;
+  font-size: 2.5rem;
+  color:gray;
+  /* width: 100px; */
+  /* height: 130px; */
+}
+
+.list_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#idea_switch {
+  font-size: 60px;
+}
+
+#img_flex {
+  display: flex;
+  gap: 15px;
+  width: 1200px;
+  margin-bottom: 70px;
+}
+
+#ourService_info_flex {
+  display:flex;
+  width: 1200px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.ourService_img_top {
+  /* background-image: url(../louter_website/images/penguin1.png);
+  background-size: cover;
+  background-repeat:no-repeat; */
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#ourService_img_1 {
+  background-image: url(../louter_website/images/community1.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+#ourService_img_2 {
+  background-image: url(../louter_website/images/flying_penguin.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.feature {
+  width: 250px;
+  height: 230px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 18px;
+
+  display:flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap:20px;
+}
+
+.feature_small_font {
+  font-size: 0.8rem;
+}
+
+.feature_big_font {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#feature_img1 {
+  background-image: url(../louter_website/images/note.svg);
+  width: 90px;
+  height: 90px;
+}
+
+#feature_img2 {
+  background-image: url(../louter_website/images/communicate.svg);
+  width: 90px;
+  height: 90px;
+}
+
+#feature_img3 {
+  background-image: url(../louter_website/images/together.svg);
+  width: 90px;
+  height: 90px;
+}
+
+#feature_img4 {
+  background-image: url(../louter_website/images/tool.svg);
+  width: 90px;
+  height: 90px;
+}
+
+.whyLouter_text {
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.WL_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.WL_container > a {
+  text-decoration: none;
+  color: black;
+}
+
+.whyLouter1_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 520px;
+  height: 130px;
+  padding: 30px;
+
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+
+
+.WL_part_title {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.WL_part_info {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.whyLouter2_part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 520px;
+  height: 130px;
+  padding: 30px;
+
+  background-color: var(--louter-yellow);
+  /* border: 2px solid black; */
+  border-radius: 10px;
+}
+
+.WL2_part_texts {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 30px;
+  
+
+  width: 250px;
+}
+
+.WL2_part_title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--louter-lightBrown);
+}
+
+.WL2_part_info {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+#WL2_img1 {
+  background-image: url(../louter_website/images/deasang.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+#WL2_img2 {
+  background-image: url(../louter_website/images/EBS_daesang.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+#WL2_img3 {
+  background-image: url(../louter_website/images/hanlimdae.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+#WL2_img4 {
+  background-image: url(../louter_website/images/daechang.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+#want_container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.want_content_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  /* width: 300px; */
+  height: 250px;
+}
+
+.want_content_title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.want_content_info {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+#want_img1 {
+  background-image: url(../louter_website/images/flame.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#want_img2 {
+  background-image: url(../louter_website/images/think.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#want_img3 {
+  background-image: url(../louter_website/images/handShaking.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
