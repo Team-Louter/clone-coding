@@ -44,7 +44,7 @@ p {
 
 #page1_A {
   width: 750px;
-  padding: 0 0 0 220px;
+  padding: 0 10vw;
 }
 
 #p_card1 {
@@ -153,7 +153,7 @@ p {
 /* ================================================================= */
 
 #page2 {
-  background-color: var(--lightyellow);
+  background-color: #fef9e0;
   height: 140vh;
   padding: 150px 150px;
 }
